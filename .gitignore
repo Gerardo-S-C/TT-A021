@@ -1,0 +1,37 @@
+.vscode/
+
+# Entorno virtual de Python
+/venv/
+/.venv/
+/env/
+/.env/
+*.env
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Datos de entrenamiento y datasets
+# (Puedes poner los nombres de tus carpetas de datos)
+/yolo*/ 
+/dataset*/
+/azure*/
+/resultados*/
+/data/
+/runs/
+/imagenes/
+
+*.csv
+*.zip
+*.jpg
+*.png
+*.mp4
+
+# Modelos entrenados (archivos de pesos)
+*.pt
+*.pth
+*.h5
+*.weights
